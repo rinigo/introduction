@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>宮本琳太郎のポートフォリオ</title>
+        <!-- BootstrapのCSS読み込み -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <!-- jQuery読み込み -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <!-- BootstrapのJS読み込み -->
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <style>
+            body {
+                font-size: 15px
+              }
+              
+   
+            img {
+              max-width: auto;
+              max-height: 500px;
+              }
+              
+            #Miyamoto {
+              font-size: 20px;  
+            }
+          
+            .navbar-form {
+              text-align: right;
+            }
+            
+            .product {
+              overflow: hidden;
+              background-color: #EEEEEE;
+              border-radius: 20px;
+              text-align: center;
+            }
+              
+            .profilepic {
+              overflow: hidden;
+              background-color: #EEEEEE;
+              border-radius: 20px;
+              text-align: center;
+              
+            }
+            .profilepic img {
+              transition: 0.5s;
+              border-radius: 20px;
+              height: 420px;
+              width: 500px;
+            
+            }
+           .profilepic img:hover {
+              -moz-transform: scale(1.1,1.1);
+              -webkit-transform: scale(1.1,1.1);
+              -o-transform: scale(1.1,1.1);
+              -ms-transform: scale(1.1,1.1);
+            }
+            
+            .breadcrumb {
+              font-size: 10px;
+              text-align: left;
+              background-color: white;
+            }
+            
+            .rintaro {
+              font-size: 50px; 
+              background-color: #EEEEEE;
+              border-radius: 20px;
+              text-align: center;
+            }
+            #rintaro3 {
+              font-size: 20px;
+            }
+            
+            .carousel-inner {
+              font-size: 30px;
+            }
+            
+            .contact {
+              font-size: 30px; 
+              background-color: #EEEEEE;
+              border-radius: 20px;
+              text-align: center;
+            }
+            
+            .contact a {
+              font-size:40px;
+            }
+            
+            .breadcrumb > li + li:before{
+              content: ">";
+            }
+            
+            .navbar {
+              border-radius: 0px; 
+            }
+            
+            .navbar-brand {
+              font-size: 16px;
+             
+            }
+            
+            .row {
+              margin-bottom: 50px;
+            }
+            
+            .icon {
+              text-align: center;
+            }
+            
+            .icon .glyphicon {
+              margin-bottom: 10px;
+              font-size: 40px;
+              color: #777;
+            }
+            
+            .content h2 {
+              margin-top: 0;
+              padding-bottom: 15px;
+            }
+            .content p {
+              margin-bottom: 30px;
+            }
+            
+            footer {
+              border-top: 1px solid#e7e7e7;
+              background-color: #f8f8f8;
+              text-align: center;
+            }    
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="breadcrumb">
+              <li class="active">Profile</li>
+              <li><a href="#rintaro1">Picture</a></li>
+              <li><a href="#rintaro2">Product</a></li>
+              <li><a href="#rintaro3">Contact</a></li>
+              <form class="navbar-form">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="宮本琳太郎とは">
+              </div>
+              <button type="submit" class="btn btn-info">検索</button>
+              </form>
+            </div>
+         </header>
+         
+            <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                  <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menu">
+                           <span class="sr-only">Toggle navigation</span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                      </button>
+
+                      <a class="navbar-brand" href="#">宮本琳太郎のPortfolio</a>
+                  </div>
+                  <div class="collapse navbar-collapse" id="site-menu">
+                      <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#Miyamoto">Profile</a></li>
+                        <li><a href="#rintaro1">Picture</a></li>
+                        <li><a href="#rintaro2">Product</a></li>
+                        <li><a href="#rintaro3">Contact</a></li>
+                      </ul>
+                  </div>
+                            
+            </nav>
+            
+                <div class="container">
+                 <section>
+                  <div class="profilepic">
+                    <h2>＜＜Profile＞＞</h2>
+                <img src="Rintaro profile.jpg" alt="" /> 
+            
+                  
+                  <p>宮本琳太郎（立命館大学経営学部3回生）</p>
+                  <p>北海道江別市出身の22歳。2014年8月より一年間カリフォルニアに留学。</p>
+                  <p>最近は夏休みで暇人してます。このページ作るのに早6時間が経とうとしています。</p>
+                  <p>私とお友達になりたい気さくな方は下記<a href="contact.html">Contact</a>よりご連絡お願い致します。</p>
+                  </div>
+                  </section>
+                </div>
+              </div>
+            <div class="container">
+              <section>
+                <div class="rintaro" ID="rintaro1">
+              <h2>＜＜Picture＞＞</h2>
+            <!-- 任意のID指定。クラスとデータ属性の指定。 -->
+            <div id="carousel-example" class="carousel slide" data-ride="carousel" data-interval="20000">
+              <!-- インジケーターの設置。下部の○●ボタン。 -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example" data-slide-to="1"></li>
+                <li data-target="#carousel-example" data-slide-to="2"></li>
+                <li data-target="#carousel-example" data-slide-to="3"></li>
+                <li data-target="#carousel-example" data-slide-to="4"></li>
+                
+              </ol>
+             
+              <!-- スライドの内容 -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="homestay.jpg" alt="">
+                  <div class="carousel-caption">
+                  <h1>Home Stay</h1>
+                  <p>カリフォルニア州にてサルバドール人の家族と</p>
+                  <!-- モーダルウィンドウを呼び出すボタン -->
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">サルバドールとは</button>
+                  <!-- モーダルウィンドウの中身 -->
+                  <div class="modal fade" id="myModal">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <h4 class="modal-title">米州最高の人口密度サルバドール</h4>
+                        </div>
+                        <div class="modal-body">エルサルバドル共和国（エルサルバドルきょうわこく、スペイン語: República de El Salvador）、通称エルサルバドルは、中央アメリカ中部に位置するラテンアメリカの共和制国家である。
+                        伝統的に国土の開発が進んでいたこともあって、人口密度では米州最高である。国境紛争や農業移民や経済摩擦など多くの問題を抱えて不和だったホンジュラスとサッカーの試合を原因に勃発した「サッカー戦争」が有名。
+                        また、1979年から1992年まで続いた右翼テロリストと左翼ゲリラによる内戦「エルサルバドル内線」は今もなお根深く問題として残っている。私のホームステイのママは13歳の時にカリフォルニアへ亡命してきた。</div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-primary" data-dismiss="modal">閉じる</button>
+                         </div>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="Las vegas1.jpg" alt="">
+                </div>
+                <div class="item">
+                  <img src="Las vegas2.jpg" alt="">
+                </div>
+                <div class="item">
+                  <img src="Mexico2.jpg" alt="">
+                </div>
+                <div class="item">
+                  <img src="holloween.jpg" alt="">
+                </div>
+              </div>
+             
+              <!-- 左右の移動ボタン -->
+              <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              </a>
+              <a class="right carousel-control" href="#carousel-example" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              </a>
+            </div>
+            </div>
+            </div>
+            
+            <br>
+          
+            
+            <div class="container">
+                 <section>
+                      <div class="product" ID="rintaro2">
+                   <h2>＜＜Product＞＞</h2>
+                <img src="original.jpg" alt="" /> 
+                   <p>現在オリジナルサービス作成中です！</p>
+                  <p>乞うご期待！！</p>
+                      </div>
+                </section>
+            </div>
+            
+      
+            <div class="contact" ID="rintaro3">
+             <h2>＜＜Contact＞＞</h2>
+                <ul>
+                <a href="https://www.facebook.com/rintaro.miyamoto.3" target="_blank">Facebook</a>
+                </ul>
+            </div>
+              <footer>
+                <p>&copy; 2015 Rintaro Miyamoto.</p>
+            </footer>
+        </div>
+    </body>
+</html>
